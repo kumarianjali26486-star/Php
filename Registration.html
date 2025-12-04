@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-fluid{
+            height:500px;
+            width:500px;
+            border:2px solid black;
+            margin-left:300px;
+        }
+        #file{
+            margin-left:30px;
+            width:405px;
+            border:2px solid black;
+            height:30px;
+            border-radius:5px;
+        }
+        .role{
+            height:30px;
+            width:410px;  
+            border:2px solid black;  
+            border-radius:5px; 
+            margin-left:30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 style="text-align: center;">Registration Form</h1>
+        <br>
+        <input type="text" name="Name" placeholder="Enter Name" style="border:2px solid black; width:200px; height:30px; border-radius:5px; margin-left:30px;">
+        <input type="text" name="Name" placeholder="Mobile" style="border:2px solid black;width:200px; height:30px; border-radius:5px; margin-left:30px;"><br><br>
+        <input type="text" name="Name" placeholder="Password" style="border:2px solid black;width:200px; height:30px; border-radius:5px; margin-left:30px;">         
+        <input type="text" name="Name" placeholder="Confirm Password" style="border:2px solid black;width:200px; height:30px; border-radius:5px; margin-left:30px;"><br><br>       
+         <input type="text"name="Name" placeholder="Address" style="border:2px solid black;width:400px; height:30px; border-radius:5px; margin-left:30px;"><br><br>
+         <div id="file" >
+         Upload File: <input type="file" name="photo"> 
+         </div> <br>
+         <div class="role">
+         Select role:<select name="role">
+          <option value="1">Group</option>
+          <option value="2">Voter</option>
+         </select>
+         </div><br>
+         <button style="margin-left:200px;;">Registration</button><br><br>
+         <p style="text-align: center;">already user?<a href="index.html">Login Here</a></p>
+    </div>
+</body>
+</html>
